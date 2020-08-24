@@ -1,0 +1,18 @@
+body {
+  font-size: 16px;
+  color:black;
+  background-color:aqua;
+  font-family: 'Oxygen', sans-serif;
+  background:url(../images/darkside-logo.jpg);
+}
+#logo-img{
+  background:url(../images/empire-icon.jpg) no-repeat;
+  height: 150px;
+  width: 150px;
+  margin: 10px 15px 10px 0;
+}
+#header-nav{
+  background-color: black;
+  border-radius: 10px;
+  border: 0;
+}
