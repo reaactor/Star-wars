@@ -1,2 +1,2 @@
 # Star-wars
- Just somthing for fun
+ Just something for fun
