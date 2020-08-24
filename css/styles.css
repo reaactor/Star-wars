@@ -35,10 +35,14 @@ body {
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration:none;
-}*/
+}
 .navbar-brand p{
-  color: aquamarine;
+  color: rgb(170, 74, 36);
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: .9em;
+  font-weight: 800;
   margin-top: 15px;
+}
+.navbar-brand p span{
+  vertical-align: middle;
 }
