@@ -7,6 +7,9 @@ body {
   background-color: black;
 
 }
+h2 {
+  color: #fff;
+}
 #logo-img{
   background:url(../images/empire-icon-lg.jpg) no-repeat;
   height: 150px;
@@ -111,10 +114,9 @@ body {
 }
 .panel-footer {
   margin-top: 30px;
-  padding-top: 35px;
+  padding-top: 20px;
   padding-bottom: 30px;
-  background:url(../images/empire.png);
-  background-position:top;
+  background-color: black;
   color:wheat;
   border-top: 0;
 }
@@ -143,6 +145,32 @@ body {
 #unrelated span{
   opacity: 0;
 }
+
+.movie-names{
+  position: relative;
+  border:2px solid black;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 15px;
+}
+.movie-names span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  background-color: black;
+  color: wheat;
+  opacity: .8;
+}
+.movie-names:hover {
+  box-shadow: 20px 4px 80px red;
+}
+#movie-list {
+  margin-bottom: 50px;
+}
+
 @media (min-width:1200px){
   .jumbotron{
     background: url(../images/choose-1200.jpg) no-repeat;
@@ -220,5 +248,15 @@ header nav div div .collasped
   #nav-list a{
     background-color: black;
     text-align: center;
+  }
+}
+@media (max-width:520px) {
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width:100%;
   }
 }
