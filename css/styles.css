@@ -48,7 +48,7 @@ body {
   vertical-align: middle;
 }
 #nav-list{
-  max-resolution: top 10px;
+  image-resolution: top 10px;
 }
 #nav-list a{
   color: orangered;
@@ -80,13 +80,23 @@ body {
   margin-top: -30px;
 }
 @media (min-width:1200px){
-  
+  .jumbotron{
+    background: url(../images/choose-1200.jpg) no-repeat;
+    height:675px;
+    box-shadow: 10px 10px 50px red;
+    border: 2px soli blue;
+  }
 }
-@media (min-width:768px)and (max-width:1199px){
+@media (min-width:992px)and (max-width:1199px){
   #logo-img{
     background:url(../images/empire-icon-md.jpg) no-repeat;
     size: 100%;
     margin: 4px 4px 4px 0;
+  }
+  .jumbotron{
+    background: url('../images/choose-1200.jpg');
+    height: 567px;
+    box-shadow: 8px 8px 40px red;
   }
   .navbar-brand h1{
     font-size: .85em;
@@ -96,12 +106,21 @@ body {
     font-size: .85em;
   }
 }
+@media (min-width:768px)and (max-width:991px){
+  #logo-img{
+    background:url(../images/empire-icon-md.jpg) no-repeat; 
+    size: 100%;
+    margin: 2px 2px 2px 0;
+  }
+}
+
 
 @media (max-width:767px){
 body{  background:url(../images/empire-xs.jpg) fixed currentColor no-repeat;
 }
+header nav div div .collasped
+{clear: both;}
   #header-nav{height: 90px;}
-  
   #nav-list a{
     background-color: black;
     text-align: center;
