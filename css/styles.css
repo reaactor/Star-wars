@@ -6,7 +6,7 @@ body {
   background:url(../images/thefour.jpg);
 }
 #logo-img{
-  background:url(../images/empire-icon.jpg) no-repeat;
+  background:url(../images/empire-icon-lg.jpg) no-repeat;
   height: 150px;
   width: 150px;
   margin: 10px 15px 10px 0;
@@ -47,7 +47,7 @@ body {
   vertical-align: middle;
 }
 #nav-list{
-  margin-top:10px;
+  max-resolution: top 10px;
 }
 #nav-list a{
   color: orangered;
@@ -70,4 +70,40 @@ body {
   color:burlywood;
   text-align: right;
   padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid peru;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+@media (min-width:1200px){
+  
+}
+@media (min-width:768px)and (max-width:1199px){
+  #logo-img{
+    background:url(../images/empire-icon-md.jpg) no-repeat;
+    height: 100px;
+    width: 100px;
+    margin: 4px 4px 4px 0;
+  }
+  .navbar-brand h1{
+    font-size: .85em;
+    text-shadow: 1px 1px  red;
+  }
+  div p span {
+    font-size: .85em;
+  }
+}
+
+@media (max-width:767px){
+  #header-nav{height: 90px;}
+  button{
+    clear: both;
+  }
+  #nav-list a{
+    background-color: black;
+    text-align: center;
+  }
 }
