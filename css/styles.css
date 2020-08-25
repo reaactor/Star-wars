@@ -100,7 +100,9 @@ body {
 
 @media (max-width:767px){
 body{  background:url(../images/empire-xs.jpg) fixed currentColor no-repeat;
-  height: 100vw;}
+  height: 100vw;
+  width: 767px;
+}
   #header-nav{height: 90px;}
   button{
     clear: both;
