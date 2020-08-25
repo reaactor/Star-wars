@@ -3,7 +3,6 @@ body {
   color:black;
   font-family: 'Oxygen', sans-serif;
   background:url(../images/empire.png) fixed currentColor no-repeat;
-    height: 100vw;    
   background-color: black;
 
 }
@@ -100,13 +99,9 @@ body {
 
 @media (max-width:767px){
 body{  background:url(../images/empire-xs.jpg) fixed currentColor no-repeat;
-  height: 100vw;
-  width: 767px;
 }
   #header-nav{height: 90px;}
-  button{
-    clear: both;
-  }
+  
   #nav-list a{
     background-color: black;
     text-align: center;
