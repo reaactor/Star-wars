@@ -46,3 +46,16 @@ body {
 .navbar-brand p span{
   vertical-align: middle;
 }
+#nav-list{
+  margin-top:10px;
+}
+#nav-list a{
+  color: orangered;
+  text-align: center;
+}
+#nav-list a:hover{
+  background:lightblue;
+}
+#nav-list a span {
+  font: size 1.8em;
+}
