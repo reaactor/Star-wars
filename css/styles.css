@@ -79,6 +79,17 @@ body {
   clear: both;
   margin-top: -30px;
 }
+#games,#memes,#unrelated {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border:2px solid black;
+  overflow: hidden;
+}
+#games:hover,#memes:hover,#unrelated:hover {
+  box-shadow: 2px 2px 40px red;
+}
 @media (min-width:1200px){
   .jumbotron{
     background: url(../images/choose-1200.jpg) no-repeat;
@@ -131,6 +142,21 @@ body{
   border: 2px solid red;
   background:transparent;
   max-width: 636px;
+}
+#call-btn > a {
+  font-size: 1.5em;
+  display: block;
+  margin: 0 20px;
+  padding: 10px;
+  border: 1px solid  red;
+  background-color: black;
+  color:wheat;}
+#xs-deliver {
+  margin-top: 5px;
+  font-size: .7em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: aliceblue;
 }
 
 
