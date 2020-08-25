@@ -1,9 +1,11 @@
 body {
   font-size: 16px;
   color:black;
-  background-color:aqua;
   font-family: 'Oxygen', sans-serif;
-  background:url(../images/thefour.jpg);
+  background:url(../images/empire.png) fixed currentColor no-repeat;
+    height: 100vw;    
+  background-color: black;
+
 }
 #logo-img{
   background:url(../images/empire-icon-lg.jpg) no-repeat;
@@ -84,8 +86,7 @@ body {
 @media (min-width:768px)and (max-width:1199px){
   #logo-img{
     background:url(../images/empire-icon-md.jpg) no-repeat;
-    height: 100px;
-    width: 100px;
+    size: 100%;
     margin: 4px 4px 4px 0;
   }
   .navbar-brand h1{
@@ -98,6 +99,8 @@ body {
 }
 
 @media (max-width:767px){
+body{  background:url(../images/empire-xs.jpg) fixed currentColor no-repeat;
+  height: 100vw;}
   #header-nav{height: 90px;}
   button{
     clear: both;
