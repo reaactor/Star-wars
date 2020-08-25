@@ -84,7 +84,7 @@ body {
     background: url(../images/choose-1200.jpg) no-repeat;
     height:675px;
     box-shadow: 10px 10px 50px red;
-    border: 2px soli blue;
+    border: 2px solid black;
   }
 }
 @media (min-width:992px)and (max-width:1199px){
@@ -94,7 +94,7 @@ body {
     margin: 4px 4px 4px 0;
   }
   .jumbotron{
-    background: url('../images/choose-1200.jpg');
+    background: url(../images/choose-992.jpg);
     height: 567px;
     box-shadow: 8px 8px 40px red;
   }
@@ -112,12 +112,28 @@ body {
     size: 100%;
     margin: 2px 2px 2px 0;
   }
+  .jumbotron {
+    background: url(../images/choose-768.jpg) no-repeat;
+    height: 432px;
+    box-shadow: 6px 6px 30px  red;
+  }
 }
 
 
 @media (max-width:767px){
-body{  background:url(../images/empire-xs.jpg) fixed currentColor no-repeat;
+body{
+    background:url(../images/empire-xs.jpg) fixed currentColor no-repeat;
 }
+.container .jumbotron{
+  margin-top: 30px;
+  padding: 0;
+  box-shadow: 4px 4px 28px red;
+  border: 2px solid red;
+  background:transparent;
+  max-width: 636px;
+}
+
+
 header nav div div .collasped
 {clear: both;}
   #header-nav{height: 90px;}
