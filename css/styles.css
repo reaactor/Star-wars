@@ -3,6 +3,7 @@ body {
   color:black;
   font-family: 'Oxygen', sans-serif;
   background:url(../images/empire.png) fixed currentColor no-repeat;
+  background-position: center;
   background-color: black;
 
 }
@@ -90,9 +91,43 @@ body {
 #games:hover,#memes:hover,#unrelated:hover {
   box-shadow: 2px 2px 40px red;
 }
+#memes {
+  background: url(../images/empire-icon-org.jpg) no-repeat;
+  background-position: center;
+  width: 255px;
+  margin: 0 auto 15px;
+}
+#games {
+  background: url(../images/empire-icon-org.jpg) no-repeat;
+  background-position: center;
+  width: 255px;
+  margin: 0 auto 15px;
+}
+#unrelated {
+  background:url(../images/saw-nothing.jpg) no-repeat;
+  background-position: center;
+  width: 360px;
+  margin: 0 auto 15px;
+}
+#games span,#memes span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .7;
+}
+#unrelated span{
+  opacity: 0;
+}
 @media (min-width:1200px){
   .jumbotron{
     background: url(../images/choose-1200.jpg) no-repeat;
+    background-position: center;
     height:675px;
     box-shadow: 10px 10px 50px red;
     border: 2px solid black;
