@@ -109,6 +109,25 @@ body {
   width: 360px;
   margin: 0 auto 15px;
 }
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background:url(../images/empire.png);
+  background-position:top;
+  color:wheat;
+  border-top: 0;
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#og,#prequals,#sequals {
+  line-height: 2;
+}
+#og > span,#sequals > span,#prequals > span {
+  font-size: 1.3em;
+}
+
 #games span,#memes span {
   position: absolute;
   bottom: 0;
