@@ -1,7 +1,7 @@
 <!doctype html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Movies</title>
+    <title>Characters</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -39,14 +39,14 @@
                 <br class="hidden-xs">Fractions
               </a>
             </li>
-            <li>
+            <li class="active">
               <a href="Characters.html">
                 <span class="glyphicon glyphicon-user">
                 </span>
                 <br class="hidden-xs">Characters
               </a>
             </li>
-            <li class="active">
+            <li >
               <a href="movies.html">
                 <span class="glyphicon glyphicon-sunglasses">
                 </span>
@@ -71,72 +71,81 @@
   <div id="xs-deliver" class="text-center visible-xs">-Disney</div> 
   
   <div id="main-content" class="container">
-    <h2 id="movie-list" class="text-center">Movies</h2>
+    <h2 id="characters-list" class="text-center">Characters</h2>
+    <div class="text-center" id="ch-lst"  >
+      This list only contains characters of 3 movie triologies
+    </div>
+    <br>
+
     <section class="row">
-      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12"  >
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars1.jpg" alt="Star wars:The phantom menace">
-            <span>Star wars:The phantom menace</span>
+      <div class="characters-list-tile col-md-6">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="characters-list-photo">
+              <div>Vader</div>
+              <img class="img-responsive" width="250" height="150" src="images/darth.jpg" alt="Character">
+            </div>
           </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars2.jpg" alt="Star wars:Attack of the clones">
-            <span>Star wars:Attack of the clones</span>
+            <div class="characters-list-description col-md-7">
+              <h3 class="characters-list-title">Darth vader</h3>
+              <p class="characters-list-details">“Be careful not to choke on your aspirations.”</p>
+            </div>
           </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars3.jpg" alt="Star wars:Revenge of the sith ">
-            <span>Star wars:Revenge of the sith </span>
-          </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars4.jpg" alt="Star wars:A new hope">
-            <span>Star wars:A new hope</span>
-          </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars5.jpg" alt="Star wars:The empire strikes back">
-            <span>Star wars:The empire strikes back</span>
-          </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars6.jpg" alt="Star wars:Return of the jedi ">
-            <span>Star wars:Return of the jedi </span>
-          </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars7.jpg" alt="Star wars:The force awakens">
-            <span>Star wars:The force awakens</span>
-          </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars8.jpg" alt="Star wars:The last jedi">
-            <span>Star wars:The last jedi</span>
-          </div>
-        </a>
-      </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 col-xxs-12">
-        <a href="#">
-          <div class="movie-names">
-            <img width="250" height="250" src="images/movies/star-wars9.jpg" alt="Star wars:The rise of skywalker ">
-            <span>Star wars:The rise of skywalker </span>
-          </div>
-        </a>
+          <hr class="visible-sm visible-xs">
       </div>
+
+      <div class="characters-list-tile col-md-6">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="characters-list-photo">
+              <div>General Kenobi</div>
+              <img class="img-responsive" width="250" height="150" src="images/darkside-logo.jpg" alt="Character">
+            </div>
+          </div>
+            <div class="characters-list-description col-md-7">
+              <h3 class="characters-list-title">Obi-Wan Kenobi</h3>
+              <p class="characters-list-details">“Hello there”</p>
+            </div>
+          </div>
+          <hr class="visible-sm  visible-xs">
+      </div>
+
+      <div class="clearfix visible-md-block visible-lg-block"></div>
+
+      <div class="characters-list-tile col-md-6">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="characters-list-photo">
+              <div>Master Yoda</div>
+              <img class="img-responsive" width="250" height="150" src="images/darkside-logo.jpg" alt="Character">
+            </div>
+          </div>
+            <div class="characters-list-description col-md-7">
+              <h3 class="characters-list-title">Master Yoda</h3>
+              <p class="characters-list-details">“Good relations with your mother i have”</p>
+            </div>
+          </div>
+          <hr class="visible-sm  visible-xs">
+      </div>
+      
+      <div class="characters-list-tile col-md-6">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="characters-list-photo">
+              <div>Luke skywalker</div>
+              <img class="img-responsive" width="250" height="150" src="images/darkside-logo.jpg" alt="Character">
+            </div>
+          </div>
+            <div class="characters-list-description col-md-7">
+              <h3 class="characters-list-title">Luke skywalker</h3>
+              <p class="characters-list-details">“I Want To Learn The Ways Of The Force...”</p>
+            </div>
+          </div>
+          <hr class="visible-sm visible-xs">
+      </div>
+      
+      <div class="clearfix visible-md-block visible-lg-block"></div>
+
     </section>
   </div>
 

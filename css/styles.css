@@ -171,6 +171,47 @@ h2 {
   margin-bottom: 50px;
 }
 
+#ch-lst {
+  color: whitesmoke;
+}
+
+.characters-list-tile {
+  margin-bottom: 25px;
+}
+.characters-list-tile hr {
+  width: 80%;
+}
+.characters-list-photo {
+  position: relative;
+  border: 2px solid whitesmoke;
+  overflow:hidden;
+  padding:0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.characters-list-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background-color: wheat;
+  text-align: center;
+}
+.characters-list-description {
+  padding-right: 30px;
+  color: #fff;
+}
+h3.characters-list-title {
+    margin: 0 0 10px;
+}
+.characters-list-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+
 @media (min-width:1200px){
   .jumbotron{
     background: url(../images/choose-1200.jpg) no-repeat;
@@ -210,6 +251,12 @@ h2 {
     height: 432px;
     box-shadow: 6px 6px 30px  red;
   }
+  .characters-list-photo {
+    margin-right: auto;
+  }
+  .characters-list-description {
+    text-align: center;
+  }
 }
 
 
@@ -242,11 +289,18 @@ body{
 }
 
 
-header nav div div .collasped
-{clear: both;}
+header nav div div .collasped{
+  clear: both;
+}
   #header-nav{height: 90px;}
   #nav-list a{
     background-color: black;
+    text-align: center;
+  }
+  .characters-list-photo {
+    margin-right: auto;
+  }
+  .characters-list-description {
     text-align: center;
   }
 }
